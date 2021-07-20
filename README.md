@@ -1,4 +1,5 @@
 # go-library
 Code pieces
 
-## Various useful or -less constructions.
+## Async Buffering
+Proof of concept for buffering a channel
