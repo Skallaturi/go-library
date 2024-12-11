@@ -17,7 +17,7 @@ func GetBufferedIntSlice() []int {
 	return response
 }
 
-func dummyAsyncutput(outputChannel chan int) {
+func dummyAsyncOutput(outputChannel chan int) {
 	for i := 0; i < 50; i++ {
 		// time.Sleep(500 * time.Millisecond)
 		fmt.Printf("sent %v\n", i)
